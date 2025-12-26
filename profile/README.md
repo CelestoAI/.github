@@ -1,25 +1,20 @@
-## Hi there 👋
+<div align="center">
+<h2 align="center">
+    Hi there 👋
+</h2>
 
-<!--
-
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
-
+<p>
 Celesto turns agents from request/response scripts into always-on, coordinated systems.<br>
 Deploy a production-grade runtime that handles security, scaling, and reliability.
-
+</p>
 
 <h2>
     Stop building infra and<br>
     Start building agents 🚀
 </h2>
 
+<div align="left">
+    
 ```py
 from agentor.tools import GetWeatherTool
 from agentor import Agentor
@@ -35,3 +30,6 @@ print(result)
 # Serve Agent with a single line of code
 agent.serve()
 ```
+</div>
+
+</div>
