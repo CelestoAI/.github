@@ -1,12 +1,7 @@
 <div align="center">
-<p>
-Celesto turns agents from request/response scripts into always-on, coordinated systems.<br>
-Deploy a production-grade runtime that handles security, scaling, and reliability.
-</p>
-
 <h2>
-    Stop building infra and<br>
-    Start building agents 🚀
+Stop building infra and<br>
+Start building agents 🚀
 </h2>
 
 <div align="left">
