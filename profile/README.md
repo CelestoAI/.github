@@ -1,8 +1,4 @@
 <div align="center">
-<h2 align="center">
-    Hi there 👋
-</h2>
-
 <p>
 Celesto turns agents from request/response scripts into always-on, coordinated systems.<br>
 Deploy a production-grade runtime that handles security, scaling, and reliability.
