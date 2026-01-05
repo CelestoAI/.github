@@ -1,7 +1,7 @@
 <div align="center">
 <h2>
 Stop building infra and<br>
-Start building agents 🚀
+ Start building agents 🚀  
 </h2>
 
 <div align="left">
