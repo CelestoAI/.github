@@ -7,19 +7,12 @@ Stop building infra and<br>
 <div align="left">
     
 ```py
-from agentor.tools import GetWeatherTool
-from agentor import Agentor
+from smolvm import SmolVM
 
-agent = Agentor(
-    name="Weather Agent",
-    model="gpt-5-mini",  # Use any LLM provider - gemini/gemini-2.5-pro or anthropic/claude-3.5
-    tools=[GetWeatherTool()]
-)
-result = agent.run("What is the weather in London?")  # Run the Agent
-print(result)
-
-# Serve Agent with a single line of code
-agent.serve()
+vm = SmolVM()
+result = vm.run("echo 'Hello from the sandbox!'")
+print(result.stdout.strip())
+vm.stop()
 ```
 </div>
 
