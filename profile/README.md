@@ -1,4 +1,7 @@
 <div align="center">
+
+<img src="https://ik.imagekit.io/gradsflow/celestoai/logo/celesto%20cover%20low_vFigbRaJI.png">
+
 <h2>
 Stop building infra and<br>
 &nbsp;Start building agents 🚀 
