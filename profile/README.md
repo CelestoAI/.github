@@ -1,21 +1,17 @@
 <div align="center">
 
-<img src="https://ik.imagekit.io/gradsflow/celestoai/logo/celesto%20cover%20low_vFigbRaJI.png">
+<img src="https://ik.imagekit.io/gradsflow/celestoai/oss/celesto-oss-banner_tHGcFZh4Ea.png">
 
-<h2>
-Stop building infra and<br>
-&nbsp;Start building agents 🚀 
-</h2>
+---
 
 <div align="left">
-    
-```py
-from smolvm import SmolVM
 
-vm = SmolVM()
-result = vm.run("echo 'Hello from the sandbox!'")
-print(result.stdout.strip())
-vm.stop()
+```py
+from celesto import Computer
+
+with Computer() as computer:
+    result = computer.run("echo 'Hello from an isolated computer!'")
+    print(result.stdout)
 ```
 </div>
 
